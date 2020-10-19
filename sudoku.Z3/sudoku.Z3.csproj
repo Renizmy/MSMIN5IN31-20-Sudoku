@@ -5,7 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Z3.LinqBinding\Z3.LinqBinding.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MiaPlaza.ExpressionUtils" Version="1.2.0" />
     <PackageReference Include="Microsoft.Z3.x64" Version="4.8.9" />
+    <PackageReference Include="System.Net.Security" Version="4.3.2" />
   </ItemGroup>
 
   <ItemGroup>
